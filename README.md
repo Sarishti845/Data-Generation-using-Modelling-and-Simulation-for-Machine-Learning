@@ -195,6 +195,7 @@ The following chart compares all regression models based on R² score:
 ├── Assignment.ipynb
 ├── README.md
 ├── model_comparison (1).png
+├── simulation_dataset.csv
 
 ```
 
