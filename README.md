@@ -169,11 +169,13 @@ Higher R² indicates better model performance.
 
 # 📊 Visualizations
 
-## 🔹 Model Comparison (R² Score)
+## 📊 Model Comparison (R² Score)
 
-The following graph shows comparison of all regression models based on R² Score:
+The following chart compares all regression models based on R² score:
 
-![Model Comparison](model_comparison.png)
+<p align="center">
+  <img src="model_comparison.png" width="800">
+</p>
 
 ---
 
