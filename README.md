@@ -1,4 +1,80 @@
+# 📊 Data Generation using Modelling and Simulation for Machine Learning
 
+## 👩‍🎓 Student Details
+**Name:** Sarishti  
+**Course:** Modelling and Simulation for Machine Learning  
+**Simulation Tool:** SimPy (Discrete Event Simulation Framework)
+
+---
+
+# 🎯 Objective
+
+The objective of this project is to:
+
+- Select a suitable computer simulation software.
+- Identify important system parameters and determine their bounds.
+- Generate synthetic data using simulation.
+- Perform 1000 simulation runs.
+- Apply multiple Machine Learning models.
+- Compare model performance using evaluation metrics.
+- Identify the best performing model.
+
+This project demonstrates how simulation-generated data can be effectively used for Machine Learning tasks.
+
+---
+
+# 🖥 Simulation Tool / Method Used
+
+## 🔹 SimPy (Open-Source)
+
+SimPy is a Python-based discrete event simulation framework used to model queue-based and event-driven systems.
+
+### Why SimPy?
+- Open-source and lightweight
+- Easy integration with Python ML libraries
+- Suitable for modeling real-world queuing systems
+- Efficient for synthetic dataset generation
+
+---
+
+# 🏦 Simulation Model: Bank Queue System
+
+A single-server bank queue system was simulated:
+
+- Customers arrive randomly (Poisson process).
+- Service time follows an exponential distribution.
+- Customers wait if the server is busy.
+- Average waiting time is recorded.
+
+Simulation runtime was fixed at **100 time units**.
+
+---
+
+# ⚙️ Parameters and Bounds (Step 3)
+
+The following parameters were defined:
+
+| Parameter       | Description                      | Lower Bound | Upper Bound |
+|----------------|----------------------------------|------------|------------|
+| arrival_rate   | Customer arrival rate (λ)        | 0.5        | 2.0        |
+| service_rate   | Service rate (μ)                 | 1.0        | 3.0        |
+
+These bounds ensure realistic queue behavior and system stability.
+
+---
+
+# 📤 Output Values Recorded
+
+For each simulation run, the following output was recorded:
+
+- **Average Waiting Time (avg_waiting_time)**
+
+Since this is a continuous value, the problem is treated as a:
+
+## 🔹 Regression Task
+
+Target Variable:
+avg_waiting_time
 ---
 
 # 🗂 Dataset Generation (Step 4 + Step 5)
