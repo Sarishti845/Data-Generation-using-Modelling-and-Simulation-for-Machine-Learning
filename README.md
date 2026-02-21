@@ -174,7 +174,7 @@ Higher R² indicates better model performance.
 The following chart compares all regression models based on R² score:
 
 <p align="center">
-  <img src="model_comparison.png" width="800">
+  <img src="model_comparison (1).png" width="800">
 </p>
 
 ---
@@ -194,6 +194,7 @@ The following chart compares all regression models based on R² score:
 📂 Assignment Repository
 ├── Assignment.ipynb
 ├── README.md
+├── model_comparison (1).png
 
 ```
 
