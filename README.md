@@ -169,14 +169,11 @@ Higher R² indicates better model performance.
 
 # 📊 Visualizations
 
-A bar chart was generated to compare models based on:
+## 🔹 Model Comparison (R² Score)
 
-- R² Score
+The following graph shows comparison of all regression models based on R² Score:
 
-Observations:
-- Linear Regression performs worst.
-- Ensemble models outperform simple models.
-- SVR achieves highest predictive accuracy.
+![Model Comparison](model_comparison.png)
 
 ---
 
